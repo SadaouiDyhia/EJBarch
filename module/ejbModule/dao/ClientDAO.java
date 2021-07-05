@@ -8,7 +8,7 @@ import utils.JPAUtils;
 
 //classe contenant les méthodes génériques ajouter, supprimer, consulter par clé primaire (Id)
 public class ClientDAO {
-private EntityManager entityManager=JPAUtils.getEntityManager("TP3");
+private EntityManager entityManager=JPAUtils.getEntityManager("module");
 //méthode ajouter d'une entité à la bd public void ajouter(Clientc)
 public void ajouter(Client c){
 	EntityTransaction tx = entityManager.getTransaction();
