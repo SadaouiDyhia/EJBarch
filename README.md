@@ -7,7 +7,7 @@ Sur serveur 2: Executer "module"<br>
 "Client" fait appel aux fonctions de "module" grace à l'implémentation EJB <br>
 Les intéractions avec la base de données se font grace à JPA <br>
 
-Base de données: Myphpadmin (MySQL) <br>
+Base de données: phpMyAdmin (MySQL) <br>
 IDE: Eclipse <br>
 Serveur: Glassfish <br>
 
